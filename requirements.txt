@@ -1,0 +1,5 @@
+papermill
+numpy
+pandas
+matplotlib
+gurobipy
