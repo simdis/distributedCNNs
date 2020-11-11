@@ -44,3 +44,14 @@ conda create --name envname
 source activate envname
 while read requirement; do conda install -n envname --yes $requirement; done < requirements.txt
 ```
+
+## How to use
+To have an idea of how the proposed methodology works, the example folder is the best choice.
+Within it, there are four jupyter notebooks covering four possible applications of the methodology itself.
+
+If desired, the python script `execute_notebook.py` is able to run many times the proposed methodology. For each experiment, a jupyter notebook is created, along with all the output CSVs. For instance, with the command
+```
+python execute_notebook.py --num_exps 50 --output_dir <path-to-output-folder>
+```
+the methology will be run 50 times in the default configuration, i.e., a single AlexNet CNN to be placed in an IoT system comprising 50 units (45% of BeagleBone AI, 45% of OrangePi Zero, and 10% of Raspberry Pi 3B+).
+The parameters of the `execute_notebook.py` allow to define several custom configuration. However, the current version of the script allows to define IoT systems comprising only three types of IoT units, i.e., the BeagleBone AI, the OrangePi Zero, and the Raspberry Pi 3B+.
