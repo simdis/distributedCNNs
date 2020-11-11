@@ -54,4 +54,4 @@ If desired, the python script `execute_notebook.py` is able to run many times th
 python execute_notebook.py --num_exps 50 --output_dir <path-to-output-folder>
 ```
 the methology will be run 50 times in the default configuration, i.e., a single AlexNet CNN to be placed in an IoT system comprising 50 units (45% of BeagleBone AI, 45% of OrangePi Zero, and 10% of Raspberry Pi 3B+).
-The parameters of the `execute_notebook.py` allow to define several custom configuration. However, the current version of the script allows to define IoT systems comprising only three types of IoT units, i.e., the BeagleBone AI, the OrangePi Zero, and the Raspberry Pi 3B+.
+The parameters of the `execute_notebook.py` allow to define several custom configurations. However, the current version of the script allows to define IoT systems comprising only three types of IoT units, i.e., the BeagleBone AI, the OrangePi Zero, and the Raspberry Pi 3B+ (if you set the probability of one of those IoT units to zero, you can define an IoT system without that IoT unit).
