@@ -5,11 +5,16 @@ This repository provides the python code of the "Distributed Convolutional Neura
 
 If you use our work, please also cite the paper:
 ```
-@article{disabato2019distributed,
-  title={Distributed Deep Convolutional Neural Networks for the Internet-of-Things},
+@article{disabato2021distributed,
+  title={Distributed deep convolutional neural networks for the internet-of-things},
   author={Disabato, Simone and Roveri, Manuel and Alippi, Cesare},
-  journal={arXiv preprint arXiv:1908.01656},
-  year={2019}
+  journal={IEEE Transactions on Computers},
+  year={2021},
+  volume={70},
+  number={8},
+  pages={1239-1252},
+  doi={10.1109/TC.2021.3062227},
+  publisher={IEEE}
 }
 ```
 
